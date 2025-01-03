@@ -1,0 +1,38 @@
+# Mo7tawa .NET Core Application
+
+This is a sample .NET Core web application for the Mo7tawa Senior software engineer assesstment.
+
+---
+
+## Prerequisites
+
+Before running this application, make sure you have the following installed:
+
+- [.NET 8.0 SDK](https://dotnet.microsoft.com/download/dotnet/8.0) or later
+- [Visual Studio 2022](https://visualstudio.microsoft.com/) or another IDE that supports .NET Core development
+- [SQL Server](https://www.microsoft.com/en-us/sql-server) (or any other database you prefer)
+  
+---
+
+## Installation
+
+Follow these steps before you run the application on your current machine:
+
+1- Database: The database created for this project was named Mo7tawa, you can Create one with the same name, or pick whichever name you want. but make sure you change the connection strings in the 
+appsettings.json file.
+    "DefaultConnection": "YOUR CONNECTION STRING"
+
+
+2-After fixing the connection Strings. Go to the package manager console and run the following command:  "dotnet ef database update";
+if dotnet was not found you can run the following command to get it: "dotnet tool install --global dotnet-ef"
+
+3- After updating the database; you should be able to access the Signup / Login endpoints.   
+
+4- Use the signup endpoint to get a working username and password;
+
+5- Use the login endpoint to get a working token.
+
+6- In the swagger menu: click on the green authorize button, and Add in your token. you should now be able to access all the book endpoints.
+
+
+

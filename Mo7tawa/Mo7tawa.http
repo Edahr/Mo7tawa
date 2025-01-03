@@ -1,0 +1,6 @@
+@Mo7tawa_HostAddress = http://localhost:5115
+
+GET {{Mo7tawa_HostAddress}}/api/books/
+Accept: application/json
+
+###
