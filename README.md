@@ -6,8 +6,8 @@ This is a sample .NET Core web application developed for the **Mo7tawa Senior So
 
 ## Table of Contents
 
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
+- [Prerequisites]
+- [Installation]
   - [Step 1: Setup Database]
   - [Step 2: Install EF Core Tools]
   - [Step 3: Database Update]
