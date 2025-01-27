@@ -1,6 +1,6 @@
 # Mo7tawa .NET Core Application
 
-This is a sample .NET Core web application developed for the **Mo7tawa Senior Software Engineer Assessment**. The application showcases the use of .NET Core for building a web API with functionality for user authentication and interaction with a database.
+This is a sample .NET Core web application that showcases the use of .NET Core for building a web API with functionality for user authentication and interaction with a database.
 
 ---
 
